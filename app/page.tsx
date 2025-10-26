@@ -1,9 +1,14 @@
-
-
 const page = () => {
   return (
-    <h1>Welome to next.js</h1>
-  )
-}
+    <section>
+      <h1 className="text-center">
+        The Hub for Every Dev <br /> Event You Can't Miss
+      </h1>
+      <p className="text-center mt-5">
+        Hackathons, Meetups, and Conferences, All in one Place
+      </p>
+    </section>
+  );
+};
 
-export default page
+export default page;
