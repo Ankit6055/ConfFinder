@@ -1,4 +1,5 @@
-import Hello from "../components/Hello";
+import Hello from "@/components/Hello";
+
 
 function page() {
   console.log("what type of comp am i?");
